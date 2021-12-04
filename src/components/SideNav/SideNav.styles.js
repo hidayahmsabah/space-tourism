@@ -4,7 +4,8 @@ export const Wrapper = styled.div`
   position: fixed;
   top: 0;
   right: 0;
-  background-color: rgba(128, 128, 128, 0.3);
+  background-color: var(--grey);
+  -webkit-backdrop-filter: blur(100px);
   backdrop-filter: blur(100px);
   width: ${({ nav }) => (nav ? "60vw" : "0")};
   height: 100vh;

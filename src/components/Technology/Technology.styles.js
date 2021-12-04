@@ -134,6 +134,8 @@ export const Content = styled.div`
     img {
       order: 1;
       flex: 1 40%;
+      width: 100vw;
+      align-self: stretch;
     }
   }
 

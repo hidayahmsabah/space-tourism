@@ -2,9 +2,10 @@ import styled from "styled-components";
 import logo from "../../assets/shared/logo.svg";
 
 export const Wrapper = styled.nav`
-  position: sticky;
+  position: absolute;
   top: 0;
   background: transparent;
+  width: 100vw;
   display: flex;
   min-height: 6rem;
   z-index: 1000;
@@ -47,19 +48,18 @@ export const Nav = styled.ul`
   align-items: center;
   flex: 0.5;
   background-color: rgba(128, 128, 128, 0.1);
+  -webkit-backdrop-filter: blur(10px);
   backdrop-filter: blur(10px);
   transition: all 0.5s ease;
 
   li {
     display: inline-block;
-    /* line-height: 4em; */
     font-size: 1.3em;
     text-transform: uppercase;
     color: var(--white);
     transition: all 0.5s ease-out;
     box-sizing: border-box;
     border-bottom: solid 0.1em transparent;
-    /* padding: 1.3em 0; */
 
     a {
       display: inline-block;

@@ -58,7 +58,11 @@ export const Content = styled.div`
 `;
 
 export const Slider = styled.div`
-  display: flex;
+  height: 75vh;
+
+  @media screen and (max-width: 850px) {
+    height: 90vh;
+  }
 `;
 
 export const Button = styled.button`

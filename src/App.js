@@ -10,9 +10,9 @@ import useWindowResize from "./hooks/useWindowResize";
 function App() {
   const [width, height] = useWindowResize();
   const [len, setLen] = useState(0);
-  const pagePoint = [];
+  const pagePoint = [0];
 
-  for (let i = 1; i < 4; i++) {
+  for (let i = 1; i < 3; i++) {
     pagePoint.push(height * i);
   }
 

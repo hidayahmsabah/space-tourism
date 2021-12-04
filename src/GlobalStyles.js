@@ -18,12 +18,14 @@ export const GlobalStyles = createGlobalStyle`
     font-family: var(--content-font);
     overflow: hidden;
     scroll-behavior: smooth;
+
 }
 
 #main{
     scroll-snap-type: y mandatory;
-    overflow-y: scroll;
     height: 100vh;
+    overflow-y: scroll;
+    scrollbar-width: none;
 }
 
 h1,
@@ -50,5 +52,9 @@ h4{
     to{
         opacity: 1;
     }
+}
+
+::-webkit-scrollbar {
+        width: 0;
 }
 `;

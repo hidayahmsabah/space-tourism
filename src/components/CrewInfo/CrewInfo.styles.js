@@ -4,9 +4,10 @@ export const Image = styled.div`
   display: flex;
   justify-content: space-around;
   align-items: flex-end;
-  height: 80vh;
+  height: 100%;
   z-index: 1;
   animation: fadein 1s;
+  overflow-y: hidden;
 
   div {
     padding: 0 0 5em 5vw;
@@ -56,7 +57,8 @@ export const Image = styled.div`
   }
 
   img {
-    user-select: none;
+    /* user-select: none; */
+    max-height: 100%;
   }
 
   @media screen and (max-width: 955px) {
@@ -79,7 +81,7 @@ export const Image = styled.div`
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
-    height: 90vh;
+    /* height: 90vh; */
     padding: 8vh 0 0 0;
     width: 100vw;
 
