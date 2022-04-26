@@ -23,7 +23,7 @@ Users should be able to:
 - See hover states for all interactive elements on the page
 - View each page and be able to toggle between the tabs to see new information
 
-The original challenge mentioned that it is a single page website, but I wanted to try my hands at creating a single page website.
+The original challenge mentioned that it is a multi-page website, but I wanted to try my hands at creating a single-page website.
 
 ### Screenshot
 
